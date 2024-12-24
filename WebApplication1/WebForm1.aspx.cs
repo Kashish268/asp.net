@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Services.Description;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -27,7 +28,7 @@ namespace WebApplication1
             int c;
             c = a + b;
             Label1.Visible = true;
-            Label1.Text=c.ToString();
+            Label1.Text="Ths sum of " + a +" and " + b +" is " + c;
             TextBox1.Text = "";
             TextBox2.Text = "";
             
