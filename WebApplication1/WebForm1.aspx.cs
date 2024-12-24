@@ -30,7 +30,7 @@ namespace WebApplication1
             Label1.Text=c.ToString();
             TextBox1.Text = "";
             TextBox2.Text = "";
-
+            
         }
 
         protected void TextBox2_TextChanged(object sender, EventArgs e)
