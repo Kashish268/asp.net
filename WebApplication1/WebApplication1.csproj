@@ -67,10 +67,111 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="07_01\WebForm1.aspx" />
+    <Content Include="31_12.aspx" />
+    <Content Include="Assignment 1\add_num.aspx" />
+    <Content Include="Assignment 1\assignment2\Adrotater.aspx" />
+    <Content Include="Assignment 1\assignment2\day.aspx" />
+    <Content Include="Assignment 1\assignment2\fileupload.aspx" />
+    <Content Include="Assignment 1\assignment2\img\asp.net core.png" />
+    <Content Include="Assignment 1\assignment2\img\asp.net1.jpeg" />
+    <Content Include="Assignment 1\assignment2\XMLFile2.xml" />
+    <Content Include="Assignment 1\autopostback.aspx" />
+    <Content Include="Assignment 1\display_name.aspx" />
+    <Content Include="Assignment 1\firstpage.aspx" />
+    <Content Include="Assignment 1\index.aspx" />
+    <Content Include="Assignment 1\temperture_conversation.aspx" />
+    <Content Include="image\img2.jpg" />
+    <Content Include="image\Screenshot 2024-12-08 182318.png" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="07_01\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="07_01\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="07_01\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="07_01\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="31_12.aspx.cs">
+      <DependentUpon>31_12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="31_12.aspx.designer.cs">
+      <DependentUpon>31_12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 1\add_num.aspx.cs">
+      <DependentUpon>add_num.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 1\add_num.aspx.designer.cs">
+      <DependentUpon>add_num.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 1\assignment2\Adrotater.aspx.cs">
+      <DependentUpon>Adrotater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 1\assignment2\Adrotater.aspx.designer.cs">
+      <DependentUpon>Adrotater.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 1\assignment2\day.aspx.cs">
+      <DependentUpon>day.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 1\assignment2\day.aspx.designer.cs">
+      <DependentUpon>day.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 1\assignment2\fileupload.aspx.cs">
+      <DependentUpon>fileupload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 1\assignment2\fileupload.aspx.designer.cs">
+      <DependentUpon>fileupload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 1\autopostback.aspx.cs">
+      <DependentUpon>autopostback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 1\autopostback.aspx.designer.cs">
+      <DependentUpon>autopostback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 1\display_name.aspx.cs">
+      <DependentUpon>display_name.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 1\display_name.aspx.designer.cs">
+      <DependentUpon>display_name.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 1\firstpage.aspx.cs">
+      <DependentUpon>firstpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 1\firstpage.aspx.designer.cs">
+      <DependentUpon>firstpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 1\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 1\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 1\temperture_conversation.aspx.cs">
+      <DependentUpon>temperture_conversation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 1\temperture_conversation.aspx.designer.cs">
+      <DependentUpon>temperture_conversation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
@@ -81,6 +182,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="07_01\Site1.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -88,6 +190,10 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assignment 1\assignment2\uploads\" />
+    <Folder Include="files\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

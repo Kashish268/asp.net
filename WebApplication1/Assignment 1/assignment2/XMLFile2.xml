@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>\Assignment 1\assignment2\img\asp.net1.jpeg</ImageUrl>
+			<Keyword>ASP.NET</Keyword>
+
+		<NavigateUrl>https://dotnet.microsoft.com/en-us/apps/aspnet</NavigateUrl>
+		<AlternateText>asp.net</AlternateText>
+		<Impression>2</Impression>
+		
+	</Ad>
+
+	<Ad>
+		<ImageUrl>\Assignment 1\assignment2\img\asp.net core.png</ImageUrl>
+		<Keyword>ASP.NET CORE</Keyword>
+
+		<NavigateUrl>https://dotnet.microsoft.com/en-us/apps/aspnet</NavigateUrl>
+		<AlternateText>asp.net core</AlternateText>
+		<Impression>2</Impression>
+
+	</Ad>
+</Advertisements>
