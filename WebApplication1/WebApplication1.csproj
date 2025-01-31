@@ -69,6 +69,10 @@
   <ItemGroup>
     <Content Include="07_01\WebForm1.aspx" />
     <Content Include="31_12.aspx" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="Assignment 1\add_num.aspx" />
     <Content Include="Assignment 1\assignment2\Adrotater.aspx" />
     <Content Include="Assignment 1\assignment2\day.aspx" />
@@ -83,6 +87,7 @@
     <Content Include="Assignment 1\temperture_conversation.aspx" />
     <Content Include="image\img2.jpg" />
     <Content Include="image\Screenshot 2024-12-08 182318.png" />
+    <Content Include="multiview control\multiview.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="XMLFile1.xml" />
@@ -171,6 +176,13 @@
     </Compile>
     <Compile Include="Assignment 1\temperture_conversation.aspx.designer.cs">
       <DependentUpon>temperture_conversation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="multiview control\multiview.aspx.cs">
+      <DependentUpon>multiview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="multiview control\multiview.aspx.designer.cs">
+      <DependentUpon>multiview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">

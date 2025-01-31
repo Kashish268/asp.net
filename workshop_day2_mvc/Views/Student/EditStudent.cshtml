@@ -1,0 +1,28 @@
+﻿@model workshop_day2_mvc.Models.Student
+
+@{
+    ViewData["Title"] = "EditStudent";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>EditStudent</h1>
+
+
+<form asp-action="EditStudent">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Student Name</label>
+        <input type="text" class="form-control" id="s_name" aria-describedby="emailHelp" asp-for="Name"> 
+    </div>
+    <div class="mb-3">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Student Email</label>
+            <input type="email" class="form-control" id="s_email" aria-describedby="emailHelp" asp-for="Email">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Student Age</label>
+            <input type="number" class="form-control" id="s_age" asp-for="Age">
+        </div>
+</div>
+
+        <button type="submit" class="btn btn-primary">Edit Student</button>
+</form>

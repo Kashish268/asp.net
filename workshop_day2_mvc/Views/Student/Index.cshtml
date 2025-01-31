@@ -1,0 +1,45 @@
+﻿@using workshop_day2_mvc.Models
+@model IEnumerable<Student>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="text-center">
+    
+    <h1>Show Data</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Age</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @{
+                int a = 1;
+            }
+
+            @foreach (Student item in Model) { 
+                <tr>
+                    
+                    <td> @a</td>
+                    <td> @item.Name</td>
+                    <td> @item.Email</td>
+                    <td> @item.Age</td>
+                    <td>
+                        <a asp-action="EditStudent" class="btn btn-primary" asp-route-id="@item.Id">Edit</a>
+                        <a asp-action="DeleteStudent" class="btn btn-primary" asp-route-id="@item.Id">Delete</a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
